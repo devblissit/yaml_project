@@ -10,25 +10,30 @@ contact_form:
         - value: 5
     - fill_in:
         - selector: "#comment_general_comment"
+          name: "comment_general_commen"
           id: "x-auto-0-input"
           value: 
           required: true
           options:
             max_length: 2000
         - selector: "#comment_first_name"
+          name: "comment_first_name"
           id: "x-auto-1-input"
           value:
           required: false
         - selector: "#comment_last_name"
-          name: "x-auto-2-input"
+          name: "comment_last_name"
+          id: "x-auto-2-input"
           value:
           required: fasle
 
         - selector: "#comment_city_address"
+          name: "comment_city_address"
           id: "x-auto-5-input"
           value:
         - select:
             - selector: "#comment_state"
+              name: "comment_state"
               id: "x-auto-6-input"
               value: 
               required: false
@@ -85,10 +90,12 @@ contact_form:
                 - Wisconsin
                 - Wyoming
         - selector: "#comment_zip"
+          name: "comment_zip"
           id: "x-auto-8-input"
           value:
           required: false
         - selector: "#country"
+          name: "country"
           id: "x-auto-9-input"
           value: "United States"
           required: false
@@ -340,19 +347,23 @@ contact_form:
            Zimbabwe: "Zimbabwe"
 
         - selector: "#comment_email"
+          name: "comment_email"
           id: "x-auto-10-input"
           value:
           required: false
           
         - selector: "#comment_ph_num"
+          name: "comment_ph_num"
           id: "x-auto-11-input"
           value:
           required: false
         - selector: "#comment_org"
+          name: "comment_org"
           id: "x-auto-14-input"
           value:
           required: false
         - selector: "#gove_type"
+          name: "gove_type"
           id: "x-auto-17-input"
           value:
           required: false
@@ -366,6 +377,7 @@ contact_form:
             - U.S. House of Representatives
             - U.S. Senate
         - selector: "#gove_agency"
+          name: "gove_agency"
           id: "x-auto-18-input"
           value:
           required: false
